@@ -9,23 +9,28 @@ Beyond this, the project also explores "what if" scenarios for strategic changes
 - Data not available on quarterly statements was estimated using probability functions
 - Loaded multi sheet Excel financial data into Pandas
 - Standardized metrics for comparison and visualization
+
 **2. Financial Performance Analysis**
 - Computed year-over-year changes for underwriting profit, ratios, investment income, policies, and reserves.
 - Visualized trends with bar charts and heatmaps using Matplotlib and Seaborn.
 - Highlighted significant changes and potential strategic implications.
+
 **3. Strategic Modeling and Payoff Matrices**
 - Created a payoff function to simulate the impact of premium and claim changes on underwriting profit.
 - Generated normalized payoff matrices for company-vs-company comparisons across multiple financial metrics.
 - Visualized matrices as heatmaps to identify strong and weak strategic positions.
+
 **4. Game Theory & Nash Equilibria**
 - Implemented an algorithm to detect Nash equilibria in payoff matrices.
 - Identified stable strategies where neither company benefits by unilaterally changing premiums or claims.
 - Provided actionable insights for strategic decision-making.
 
 # Why You Should Care
+
 **What is Game Theory**
 - Game theory is a complex subject that aims to provide mathematical/logical solutions to perfect strategic decision making
 - Much of game theory is derived from nash equilibria, which are solutions in which each player plays perfectly and improvement is impossible
+
 **What is its use**
 - For the purposes of this project, game theory helps us to comprehend the best action for each company, should an action occur from another company
 - Finding Nash equilibria is essential to modeling optimal solutions in a case where perfect play can be assumed from the opposing company
